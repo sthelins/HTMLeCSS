@@ -23,10 +23,113 @@
       </div>
     </header>
 
-    <main></main>
+    <main>
+      <form>
+        <label for="name">Nome completo</label>
+        <input class="input-padrao" type="text" id="name" required />
+
+        <label for="email">E-mail</label>
+        <input
+          class="input-padrao"
+          type="email"
+          id="email"
+          required
+          placeholder="seuemail@dominio.com"
+        />
+
+        <label for="telefone">Telefone</label>
+        <input
+          class="input-padrao"
+          type="tel"
+          id="telefone"
+          required
+          placeholder="(XX) XXXXX-XXXX"
+        />
+
+        <label for="msg">Mensagem</label>
+        <textarea
+          class="input-padrao"
+          id="msg"
+          cols="68"
+          rows="10"
+          required
+        ></textarea>
+
+        <fieldset class="fieldset">
+          <legend>Como prefere o nosso contato?</legend>
+
+          <label for="radio-email"
+            >Email<input
+              type="radio"
+              name="contato"
+              id="radio-email"
+              value="email"
+          /></label>
+
+          <label for="radio-telefone"
+            >Telefone<input
+              type="radio"
+              name="contato"
+              value="telefone"
+              id="radio-telefone"
+          /></label>
+
+          <label for="radio-whatsapp"
+            >Whatsapp<input
+              type="radio"
+              name="contato"
+              value="whatsapp"
+              id="radio-whatsapp"
+              checked
+          /></label>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>Qual horário prefere ser atendido?</legend>
+          <select id="">
+            <option value="">Manhã</option>
+            <option value="">Tarde</option>
+            <option value="">Noite</option>
+          </select>
+        </fieldset>
+
+        <label class="checkbox">
+          Gostaria de receber nossas novidades por email?
+          <input type="checkbox" checked
+        /></label>
+
+        <input type="submit" value="Enviar Formulário" class="enviar" />
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dias</th>
+            <th>Horários</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>8h ~ 20h</td>
+          </tr>
+
+          <tr>
+            <td>Quarta</td>
+            <td>8h ~ 20h</td>
+          </tr>
+
+          <tr>
+            <td>Sexta</td>
+            <td>8h ~ 20h</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
 
     <footer>
-      <img src="./assets/logo-branco.png" alt="logo" />
+      <img src="./assets/logo-branco.png" alt="logo da barbearia" />
       <p class="copyright">&COPY; Copyright Barbearia Alura - 2022</p>
     </footer>
   </body>
