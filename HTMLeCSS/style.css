@@ -1,3 +1,4 @@
+/* ===== CABEÇALHO ==================== */
 header {
   background-color: #bbbbbb;
   padding: 20px 0;
@@ -33,6 +34,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* ===== PÁGINA PRODUTOS ==================== */
 .produtos {
   width: 940px;
   margin: 0 auto;
@@ -78,23 +80,12 @@ nav a:hover {
   margin-top: 10px;
 }
 
-footer {
-  text-align: center;
-  background: url('./assets/bg.jpg');
-  padding: 40px;
-}
-
-.copyright {
-  color: #ffffff;
-  font-size: 13px;
-  margin: 20px 0 0;
-}
-
 main {
   width: 940px;
   margin: 0 auto;
 }
 
+/* ===== PÁGINA CONTATO ==================== */
 form {
   margin: 40px 0;
 }
@@ -153,4 +144,17 @@ td,
 th {
   border: 1px solid black;
   padding: 8px 15px;
+}
+
+/* ===== FOOTER ==================== */
+footer {
+  text-align: center;
+  background: url('./assets/bg.jpg');
+  padding: 40px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
 }
