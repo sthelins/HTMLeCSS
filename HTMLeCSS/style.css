@@ -266,10 +266,27 @@ footer {
 
   nav {
     position: static;
+    text-align: center;
+  }
+
+  .principal,
+  .mapa,
+  .beneficios {
+    padding-inline: 2rem;
   }
 
   .lista-beneficios,
   .imgbeneficios {
     width: 100%;
+  }
+
+  .conteudo-beneficios {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .imgbeneficios {
+    box-shadow: none;
   }
 }
