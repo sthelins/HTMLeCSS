@@ -179,7 +179,7 @@ nav a:hover {
 
 /* ===== PÁGINA CONTATO ==================== */
 form {
-  margin: 40px 0;
+  margin: 40px 2rem;
 }
 
 form label,
@@ -223,7 +223,7 @@ form legend {
 }
 
 table {
-  margin: 20px 0 40px;
+  margin: 20px 0 40px 2rem;
 }
 
 thead {
@@ -257,7 +257,8 @@ footer {
   .conteudo-beneficios,
   .mapa-conteudo,
   .video,
-  .produtos {
+  .produtos,
+  .form {
     width: auto;
   }
 
@@ -298,5 +299,9 @@ footer {
   }
   .produtos li {
     width: 70%;
+  }
+
+  table {
+    margin-inline: auto;
   }
 }
