@@ -256,7 +256,8 @@ footer {
   .principal,
   .conteudo-beneficios,
   .mapa-conteudo,
-  .video {
+  .video,
+  .produtos {
     width: auto;
   }
 
@@ -288,5 +289,14 @@ footer {
 
   .imgbeneficios {
     box-shadow: none;
+  }
+  .produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  .produtos li {
+    width: 70%;
   }
 }
